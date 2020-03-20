@@ -33,10 +33,10 @@ Values
 
 insert into ownerRecord (ownerID, ownerName, ownerNumber, ownerSign, signDate)
 values 
-	('1', 'Dave Burd', 6662228888, True, '2019-05-22'),
-	('3', 'Michael Myers', 6666666666, True, '2016-07-02'),
-	('5', 'Mable Pines', 5554443332, True, '2020-01-15'),
-	('9', 'Dark Father', 8008241173, True, '2019-12-25');
+	('1', 'Dave Burd', 2228888, True, '2019-05-22'),
+	('3', 'Michael Myers', 6666666, True, '2016-07-02'),
+	('5', 'Mable Pines', 4443332, True, '2020-01-15'),
+	('9', 'Dark Father', 8241173, True, '2019-12-25');
 
 insert into trainType (trainType, type, maxCap)
 values 
@@ -44,7 +44,11 @@ values
 	(2,'Walk-Train-Play', 25),
 	(3,'Off-leash Operations', 30);
 
-insert into session (sessionID, trainCapacity, trainer, date, Training_sessionID, trainType)
+insert into training (sessionID, animalRecord_petID, Signed)
+values
+	(2,'1',True);
+
+insert into session (sessionID, trainCapacity, trainer, date, Training_sessionID, trainType_trainType)
 values 
 	(2, 15, 'Shey', '2020-03-29', 1, 1),
 	(3, 13, 'Shey', '2020-04-28', 2, 2),
@@ -56,4 +60,4 @@ values
 delete from animalRecord
 	where petID = '666';
 
-SELECT 
+SELECT * from session;
