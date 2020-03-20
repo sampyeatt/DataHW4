@@ -46,7 +46,12 @@ values
 
 insert into training (sessionID, animalRecord_petID, Signed)
 values
-	(2,'1',True);
+	(1, 666, True),
+    (2, 42, True),
+    (3, 420, True),
+    (4, 420, True),
+    (5, 666, True),
+    (6, 99, True);
 
 insert into session (sessionID, trainCapacity, trainer, date, Training_sessionID, trainType_trainType)
 values 
@@ -60,4 +65,4 @@ values
 delete from animalRecord
 	where petID = '666';
 
-SELECT * from session;
+SELECT * from animalRecord;
