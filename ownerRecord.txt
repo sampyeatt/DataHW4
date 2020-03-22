@@ -1,0 +1,6 @@
+Field	Type	Null	Key	Default	Extra
+ownerID	int	NO	PRI	NULL	
+ownerName	varchar(45)	NO		NULL	
+ownerNumber	int	NO		NULL	
+ownerSign	binary(2)	NO		NULL	
+signDate	date	NO		NULL	

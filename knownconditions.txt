@@ -1,0 +1,6 @@
+Field	Type	Null	Key	Default	Extra
+condID	int	NO	PRI	NULL	
+petID	int	NO	PRI	NULL	
+nameCondition	varchar(45)	NO		NULL	
+conditionNotes	varchar(45)	NO		NULL	
+Animal Record_petID	int	NO	MUL	NULL	

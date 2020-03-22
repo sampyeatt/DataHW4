@@ -1,0 +1,8 @@
+Field	Type	Null	Key	Default	Extra
+medID	int	NO	PRI	NULL	
+petID	int	NO	PRI	NULL	
+medDate	date	NO		NULL	
+medType	varchar(45)	NO		NULL	
+porOrNeg	binary(2)	NO		NULL	
+medNotes	varchar(100)	YES		NULL	
+Animal Record_petID	int	NO	MUL	NULL	

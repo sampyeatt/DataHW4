@@ -1,0 +1,12 @@
+Field	Type	Null	Key	Default	Extra
+visitID	int	NO	PRI	NULL	
+petID	int	NO	PRI	NULL	
+visitDate	date	NO		NULL	
+weight	int	NO		NULL	
+temp	int	NO		NULL	
+bloodPressure	float	NO		NULL	
+pulse	int	NO		NULL	
+respiration	int	NO		NULL	
+pain	int	NO		NULL	
+vetInitals	varchar(2)	NO		NULL	
+Animal Record_petID	int	NO	PRI	NULL	

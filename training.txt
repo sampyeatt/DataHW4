@@ -1,0 +1,4 @@
+Field	Type	Null	Key	Default	Extra
+sessionID	int	NO	PRI	NULL	
+animalRecord_petID	int	NO	MUL	NULL	
+Signed	binary(2)	NO		NULL	

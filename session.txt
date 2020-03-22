@@ -1,0 +1,8 @@
+Field	Type	Null	Key	Default	Extra
+sessionID	int	NO	PRI	NULL	
+trainCapacity	int	YES		NULL	
+trainer	varchar(20)	YES		NULL	
+date	date	YES		NULL	
+time	time	YES		NULL	
+Training_sessionID	int	NO	PRI	NULL	
+trainType_trainType	int	NO	PRI	NULL	

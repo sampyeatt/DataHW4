@@ -1,0 +1,8 @@
+Field	Type	Null	Key	Default	Extra
+immuID	int	NO	PRI	NULL	
+petID	int	NO	PRI	NULL	
+immuDate	date	NO		NULL	
+immuType	varchar(45)	NO		NULL	
+immuNextDue	date	NO		NULL	
+immuDetail	varchar(45)	YES		NULL	
+Animal Record_petID	int	NO	PRI	NULL	

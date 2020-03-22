@@ -1,0 +1,4 @@
+Field	Type	Null	Key	Default	Extra
+trainType	int	NO	PRI	NULL	
+type	varchar(45)	YES		NULL	
+maxCap	int	YES		NULL	

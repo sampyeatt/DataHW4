@@ -1,0 +1,12 @@
+Field	Type	Null	Key	Default	Extra
+petID	int	NO	PRI	NULL	
+ownerID	int	NO	UNI	NULL	
+petName	varchar(45)	NO		NULL	
+breed	varchar(45)	NO		NULL	
+color	varchar(45)	NO		NULL	
+birthday	date	NO		NULL	
+neuteredORspayed	binary(2)	NO		NULL	
+timePercentageOutside	decimal(10,0)	NO		NULL	
+diet	varchar(45)	NO		NULL	
+animalType	varchar(20)	YES		NULL	
+gender	varchar(6)	YES		NULL	
