@@ -14,7 +14,7 @@ describe knownconditions;
 
 describe medicalHistory;
 
-describe surgicalHistory;
+describe surgicalHistoy;
 
 describe training;
 
